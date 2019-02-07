@@ -38,7 +38,11 @@ all:	show pdf wbs
 # specifics
 VPATH=$(SITE):$(DEFAULTS)
 
-PANDOCFLAGS = -t latex --latex-engine=xelatex --template=templates/format.tex -Vtoc 
+# UNIXen just use xelatex but on windows we need use a full path
+#ENGINE=xelatex
+ENGINE=--pdf-engine=`cygpath -w /usr/bin/pdflatex`
+
+PANDOCFLAGS = -t latex $(ENGINE) --template=templates/format.tex -Vtoc 
 PANDOCVARS = -Vsitename=Megalona -VPvMaxPPa=$(PVMAXPPA)
 
 show:	$(EVERYTHING)

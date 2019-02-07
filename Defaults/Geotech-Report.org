@@ -1,0 +1,48 @@
+* Geotechnical Report
+This is the geotechnical investigation report prepared byy XX which was commissioned by 
+Enernet Global. 
+
+1. Site Visit Period: 1 April 2001
+1. Site Report 
+
+** Intent
+
+The investigation is intended to provide:
+
+1. Assessment of subsurface soil and groundwater conditions relevant to the project.
+1. Recommendations regarding footings where appropriate including
+founding depths, skin friction and allowable bearing capacities.
+1. Comments regarding subgrade prepareation and construction of
+engineered fill.
+1. Earth Resisitivity using the Wenner Method.
+1. Information on evcavuation condiotions, evacuation stability and excavability.
+1. Information regarding the agressivity of the gorund to concrete and
+steel foundations.
+
+** Outline of the investigation
+
+** Electical Resistivity Testing (ERT)
+
+** Laboratory Testing
+
+** Site Conditions
+
+** Regional Geology 
+
+** Subsurface Conditions
+
+** Assessment
+
+*** Foundation Systems
+
+*** Mass Concrete Footings
+
+*** Site Preparation
+
+*** Soil Aggressivity
+
+*** Excavatability
+
+*** Erosion Potential
+
+*** Recommened batter slopes

@@ -1,0 +1,8 @@
+** Location
+
+Latitude:
+Longitude:
+
+Map
+
+WGS84?

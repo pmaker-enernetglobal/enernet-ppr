@@ -1,0 +1,56 @@
+%#
+%# Component-Generic.org - a generic component template used by the Makefile
+%#     to generate individual Component Specifications for things such as Pv.
+%#
+%name = os.getenv('NAME')
+%title = name.split('-')[1].split('.')[0] 
+* Component $title
+This section describes the requirements for $title, in particular:
+
+1. Performance Requirements: what the $title must be able to do, output must be more than V under these test conditions.
+1. Implementation Requirements: how the $title should be iplemented.
+1. Acceptance Testing: details of how $title will be tested for final acceptance.
+1. Final Deliverables for $title: what needs to provided at the end.
+
+** $title: Performance Requirements
+This section describes the performance requiremwents for $title, i.e. how the system
+must perform in order to be accepted.
+
+WBSBEGIN: $title Performance Requirements
+WBS: $title - Performance 1
+WBSEND: $title Performance Requirements
+
+** $title: Implementation Requirements
+This section describes how this will be implemented, e.g.
+
+1. Safety Requirements
+1. Environmental Requirements
+1. Other requirements on implementation.
+
+WBSBEGIN: $title Implementation Requirements
+WBS: $title - Requirent 1 
+WBSEND: $title Implementation Requirements
+
+** $title: Acceptance Testing
+This section describes the proposed acceptance testing for $title.
+
+WBSBEGIN: $title Acceptance Testing
+WBS: $title - Test 1
+WBS: $title - Test 2
+
+This test involvers small ampounts of nuclear material.
+WBSEND: $title Acceptance Testing
+
+** $title: Final Deliverables
+Deliverables for $title.
+
+WBSBEGIN: $title Final Deliverables
+WBS: $title  - As Constructed Drawings
+WBS: $title - Certificates of completion
+WBSEND: $title Final Deliverables
+
+** $title: Response Schedules
+I know Simon wants the reponses separate but it seems easier to have them in here.
+
+
+

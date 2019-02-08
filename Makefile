@@ -40,7 +40,7 @@ VPATH=$(SITE):$(DEFAULTS)
 
 # UNIXen just use xelatex but on windows we need use a full path
 #ENGINE=xelatex
-ENGINE=--pdf-engine=`cygpath -w /usr/bin/pdflatex`
+ENGINE=--pdf-engine=`cygpath -w /usr/local/bin/pdflatex`
 
 PANDOCFLAGS = -t latex $(ENGINE) --template=templates/format.tex -Vtoc 
 PANDOCVARS = -Vsitename=Megalona -VPvMaxPPa=$(PVMAXPPA)
